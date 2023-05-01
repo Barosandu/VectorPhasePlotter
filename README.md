@@ -1,5 +1,5 @@
 # VectorPhasePlotter
-An app which plots vector spaces
+An app which plots vector spaces. There are two pre-made examples (Lorentz and Roessler), and you can also make your own.
 
 ## How to install
 Open in XCode and run on the simulator or iPhone
