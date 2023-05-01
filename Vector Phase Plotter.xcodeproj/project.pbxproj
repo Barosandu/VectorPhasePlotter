@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD595712267BA05A00EEAE87 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD595711267BA05A00EEAE87 /* Tests_iOS.swift */; };
+		DD59571D267BA05A00EEAE87 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59571C267BA05A00EEAE87 /* Tests_macOS.swift */; };
+		DD59571F267BA05A00EEAE87 /* Vector_Phase_PlotterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5956F6267BA05900EEAE87 /* Vector_Phase_PlotterApp.swift */; };
+		DD595720267BA05A00EEAE87 /* Vector_Phase_PlotterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5956F6267BA05900EEAE87 /* Vector_Phase_PlotterApp.swift */; };
+		DD595721267BA05A00EEAE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5956F7267BA05900EEAE87 /* ContentView.swift */; };
+		DD595722267BA05A00EEAE87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5956F7267BA05900EEAE87 /* ContentView.swift */; };
+		DD595723267BA05A00EEAE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5956F8267BA05A00EEAE87 /* Assets.xcassets */; };
+		DD595724267BA05A00EEAE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5956F8267BA05A00EEAE87 /* Assets.xcassets */; };
+		DD595734267BA0CF00EEAE87 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD595733267BA0CF00EEAE87 /* GameViewController.swift */; };
+		DD595735267BA0CF00EEAE87 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD595733267BA0CF00EEAE87 /* GameViewController.swift */; };
+		DD595737267BA0E600EEAE87 /* PutNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD595736267BA0E600EEAE87 /* PutNode.swift */; };
+		DD595738267BA0E600EEAE87 /* PutNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD595736267BA0E600EEAE87 /* PutNode.swift */; };
+		DDD634C8268480F500F6DD9F /* NSExpressionWithErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD634C7268480F500F6DD9F /* NSExpressionWithErrorHandler.m */; };
+		DDD634C9268480F500F6DD9F /* NSExpressionWithErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD634C7268480F500F6DD9F /* NSExpressionWithErrorHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD59570E267BA05A00EEAE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5956F1267BA05900EEAE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5956FC267BA05A00EEAE87;
+			remoteInfo = "Vector Phase Plotter (iOS)";
+		};
+		DD595719267BA05A00EEAE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5956F1267BA05900EEAE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD595704267BA05A00EEAE87;
+			remoteInfo = "Vector Phase Plotter (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5956F6267BA05900EEAE87 /* Vector_Phase_PlotterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector_Phase_PlotterApp.swift; sourceTree = "<group>"; };
+		DD5956F7267BA05900EEAE87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD5956F8267BA05A00EEAE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5956FD267BA05A00EEAE87 /* Vector Phase Plotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vector Phase Plotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD595700267BA05A00EEAE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD595705267BA05A00EEAE87 /* Vector Phase Plotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vector Phase Plotter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD595707267BA05A00EEAE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD595708267BA05A00EEAE87 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DD59570D267BA05A00EEAE87 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD595711267BA05A00EEAE87 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DD595713267BA05A00EEAE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD595718267BA05A00EEAE87 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD59571C267BA05A00EEAE87 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DD59571E267BA05A00EEAE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD595733267BA0CF00EEAE87 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DD595736267BA0E600EEAE87 /* PutNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PutNode.swift; sourceTree = "<group>"; };
+		DDD634C5268480F500F6DD9F /* Vector Phase Plotter (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vector Phase Plotter (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDD634C6268480F500F6DD9F /* Phase Plotter 3D-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phase Plotter 3D-Bridging-Header.h"; sourceTree = "<group>"; };
+		DDD634C7268480F500F6DD9F /* NSExpressionWithErrorHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSExpressionWithErrorHandler.m; sourceTree = "<group>"; };
+		DDD634CA2684810700F6DD9F /* NSExpressionWithErrorHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSExpressionWithErrorHandler.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5956FA267BA05A00EEAE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595702267BA05A00EEAE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59570A267BA05A00EEAE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595715267BA05A00EEAE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5956F0267BA05900EEAE87 = {
+			isa = PBXGroup;
+			children = (
+				DD5956F5267BA05900EEAE87 /* Shared */,
+				DD5956FF267BA05A00EEAE87 /* iOS */,
+				DD595706267BA05A00EEAE87 /* macOS */,
+				DD595710267BA05A00EEAE87 /* Tests iOS */,
+				DD59571B267BA05A00EEAE87 /* Tests macOS */,
+				DD5956FE267BA05A00EEAE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5956F5267BA05900EEAE87 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DD5956F6267BA05900EEAE87 /* Vector_Phase_PlotterApp.swift */,
+				DD5956F7267BA05900EEAE87 /* ContentView.swift */,
+				DD595733267BA0CF00EEAE87 /* GameViewController.swift */,
+				DD595736267BA0E600EEAE87 /* PutNode.swift */,
+				DDD634C7268480F500F6DD9F /* NSExpressionWithErrorHandler.m */,
+				DDD634CA2684810700F6DD9F /* NSExpressionWithErrorHandler.h */,
+				DD5956F8267BA05A00EEAE87 /* Assets.xcassets */,
+				DDD634C5268480F500F6DD9F /* Vector Phase Plotter (iOS)-Bridging-Header.h */,
+				DDD634C6268480F500F6DD9F /* Phase Plotter 3D-Bridging-Header.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DD5956FE267BA05A00EEAE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5956FD267BA05A00EEAE87 /* Vector Phase Plotter.app */,
+				DD595705267BA05A00EEAE87 /* Vector Phase Plotter.app */,
+				DD59570D267BA05A00EEAE87 /* Tests iOS.xctest */,
+				DD595718267BA05A00EEAE87 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5956FF267BA05A00EEAE87 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD595700267BA05A00EEAE87 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DD595706267BA05A00EEAE87 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD595707267BA05A00EEAE87 /* Info.plist */,
+				DD595708267BA05A00EEAE87 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DD595710267BA05A00EEAE87 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD595711267BA05A00EEAE87 /* Tests_iOS.swift */,
+				DD595713267BA05A00EEAE87 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DD59571B267BA05A00EEAE87 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD59571C267BA05A00EEAE87 /* Tests_macOS.swift */,
+				DD59571E267BA05A00EEAE87 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5956FC267BA05A00EEAE87 /* Vector Phase Plotter (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD595727267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Vector Phase Plotter (iOS)" */;
+			buildPhases = (
+				DD5956F9267BA05A00EEAE87 /* Sources */,
+				DD5956FA267BA05A00EEAE87 /* Frameworks */,
+				DD5956FB267BA05A00EEAE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vector Phase Plotter (iOS)";
+			productName = "Vector Phase Plotter (iOS)";
+			productReference = DD5956FD267BA05A00EEAE87 /* Vector Phase Plotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD595704267BA05A00EEAE87 /* Phase Plotter 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59572A267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Phase Plotter 3D" */;
+			buildPhases = (
+				DD595701267BA05A00EEAE87 /* Sources */,
+				DD595702267BA05A00EEAE87 /* Frameworks */,
+				DD595703267BA05A00EEAE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phase Plotter 3D";
+			productName = "Vector Phase Plotter (macOS)";
+			productReference = DD595705267BA05A00EEAE87 /* Vector Phase Plotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD59570C267BA05A00EEAE87 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD59572D267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DD595709267BA05A00EEAE87 /* Sources */,
+				DD59570A267BA05A00EEAE87 /* Frameworks */,
+				DD59570B267BA05A00EEAE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD59570F267BA05A00EEAE87 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DD59570D267BA05A00EEAE87 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD595717267BA05A00EEAE87 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD595730267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DD595714267BA05A00EEAE87 /* Sources */,
+				DD595715267BA05A00EEAE87 /* Frameworks */,
+				DD595716267BA05A00EEAE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD59571A267BA05A00EEAE87 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DD595718267BA05A00EEAE87 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5956F1267BA05900EEAE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DD5956FC267BA05A00EEAE87 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					DD595704267BA05A00EEAE87 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					DD59570C267BA05A00EEAE87 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DD5956FC267BA05A00EEAE87;
+					};
+					DD595717267BA05A00EEAE87 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = DD595704267BA05A00EEAE87;
+					};
+				};
+			};
+			buildConfigurationList = DD5956F4267BA05900EEAE87 /* Build configuration list for PBXProject "Vector Phase Plotter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5956F0267BA05900EEAE87;
+			productRefGroup = DD5956FE267BA05A00EEAE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5956FC267BA05A00EEAE87 /* Vector Phase Plotter (iOS) */,
+				DD595704267BA05A00EEAE87 /* Phase Plotter 3D */,
+				DD59570C267BA05A00EEAE87 /* Tests iOS */,
+				DD595717267BA05A00EEAE87 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5956FB267BA05A00EEAE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD595723267BA05A00EEAE87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595703267BA05A00EEAE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD595724267BA05A00EEAE87 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD59570B267BA05A00EEAE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595716267BA05A00EEAE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5956F9267BA05A00EEAE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD634C8268480F500F6DD9F /* NSExpressionWithErrorHandler.m in Sources */,
+				DD595734267BA0CF00EEAE87 /* GameViewController.swift in Sources */,
+				DD595721267BA05A00EEAE87 /* ContentView.swift in Sources */,
+				DD59571F267BA05A00EEAE87 /* Vector_Phase_PlotterApp.swift in Sources */,
+				DD595737267BA0E600EEAE87 /* PutNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595701267BA05A00EEAE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD634C9268480F500F6DD9F /* NSExpressionWithErrorHandler.m in Sources */,
+				DD595735267BA0CF00EEAE87 /* GameViewController.swift in Sources */,
+				DD595722267BA05A00EEAE87 /* ContentView.swift in Sources */,
+				DD595720267BA05A00EEAE87 /* Vector_Phase_PlotterApp.swift in Sources */,
+				DD595738267BA0E600EEAE87 /* PutNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595709267BA05A00EEAE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD595712267BA05A00EEAE87 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD595714267BA05A00EEAE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59571D267BA05A00EEAE87 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD59570F267BA05A00EEAE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5956FC267BA05A00EEAE87 /* Vector Phase Plotter (iOS) */;
+			targetProxy = DD59570E267BA05A00EEAE87 /* PBXContainerItemProxy */;
+		};
+		DD59571A267BA05A00EEAE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD595704267BA05A00EEAE87 /* Phase Plotter 3D */;
+			targetProxy = DD595719267BA05A00EEAE87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD595725267BA05A00EEAE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD595726267BA05A00EEAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DD595728267BA05A00EEAE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Vector-Phase-Plotter";
+				PRODUCT_NAME = "Vector Phase Plotter";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Vector Phase Plotter (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD595729267BA05A00EEAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Vector-Phase-Plotter";
+				PRODUCT_NAME = "Vector Phase Plotter";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Vector Phase Plotter (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD59572B267BA05A00EEAE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Vector-Phase-Plotter";
+				PRODUCT_NAME = "Vector Phase Plotter";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Phase Plotter 3D-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD59572C267BA05A00EEAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Vector-Phase-Plotter";
+				PRODUCT_NAME = "Vector Phase Plotter";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Phase Plotter 3D-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD59572E267BA05A00EEAE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vector Phase Plotter (iOS)";
+			};
+			name = Debug;
+		};
+		DD59572F267BA05A00EEAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vector Phase Plotter (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD595731267BA05A00EEAE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Vector Phase Plotter (macOS)";
+			};
+			name = Debug;
+		};
+		DD595732267BA05A00EEAE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9HB7KJC764;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andu.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Vector Phase Plotter (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5956F4267BA05900EEAE87 /* Build configuration list for PBXProject "Vector Phase Plotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD595725267BA05A00EEAE87 /* Debug */,
+				DD595726267BA05A00EEAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD595727267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Vector Phase Plotter (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD595728267BA05A00EEAE87 /* Debug */,
+				DD595729267BA05A00EEAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59572A267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Phase Plotter 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59572B267BA05A00EEAE87 /* Debug */,
+				DD59572C267BA05A00EEAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD59572D267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD59572E267BA05A00EEAE87 /* Debug */,
+				DD59572F267BA05A00EEAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD595730267BA05A00EEAE87 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD595731267BA05A00EEAE87 /* Debug */,
+				DD595732267BA05A00EEAE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5956F1267BA05900EEAE87 /* Project object */;
+}
